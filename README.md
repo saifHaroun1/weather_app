@@ -1,16 +1,72 @@
-# weather_app
+# Weather Forecast App
 
-A new Flutter project.
+A simple weather forecast application built with Flutter that provides real-time weather information for any location using a weather API.
 
-## Getting Started
+The application allows users to search for cities and view detailed weather information including temperature, humidity, wind speed, and weather conditions through a clean and responsive interface.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+# Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Real-time weather updates
+- Search weather by city name
+- Display temperature, humidity, and wind speed
+- Dark and light mode support
+- Responsive and clean UI
+- API integration for live weather data
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+# Technologies Used
+
+- Flutter
+- Dart
+- REST API
+- HTTP Package
+
+---
+
+# Screenshots
+
+| Home Screen | Weather Details |
+|--------------|----------------|
+| ![](assets/screenshots/home.png) | ![](assets/screenshots/details.png) |
+
+---
+
+# Project Structure
+
+```bash
+lib/
+├── screens/
+├── widgets/
+├── services/
+├── models/
+```
+
+---
+
+# Challenges
+
+- Handling API responses and errors
+- Managing app states smoothly
+- Building responsive UI for different devices
+
+---
+
+# Getting Started
+
+```bash
+git clone https://github.com/yourusername/weather_app.git
+
+flutter pub get
+
+flutter run
+```
+
+---
+
+# Developer
+
+Saif Khaled Haroun  
+Flutter Developer
